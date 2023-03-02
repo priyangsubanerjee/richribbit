@@ -21,7 +21,7 @@ function Introduction() {
         <div className="mt-16 flex items-center justify-center space-x-8">
           <div className="w-56 h-28 relative">
             <img
-              src="/rectangleOne.png"
+              src="/rectangle/introSmall.svg"
               className="absolute inset-0 z-0 w-full h-full"
               alt=""
             />
@@ -34,7 +34,7 @@ function Introduction() {
           </div>
           <div className="w-56 h-28 relative">
             <img
-              src="/rectangleOne.png"
+              src="/rectangle/introSmall.svg"
               className="absolute inset-0 z-0 w-full h-full"
               alt=""
             />
@@ -47,7 +47,7 @@ function Introduction() {
           </div>
           <div className="w-56 h-28 relative">
             <img
-              src="/rectangleOne.png"
+              src="/rectangle/introSmall.svg"
               className="absolute inset-0 z-0 w-full h-full"
               alt=""
             />

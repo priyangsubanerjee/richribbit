@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className="w-full h-28 relative">
       <img
-        src="/gradients/navGradient1.png"
+        src="/gradients/nav.svg"
         className="absolute right-0 top-0 z-0 h-[450px]"
         alt=""
       />
