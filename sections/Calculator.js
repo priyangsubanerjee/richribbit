@@ -17,7 +17,7 @@ function Calculator() {
         <div className="flex items-center mt-16 space-x-8">
           <div className="w-[520px] h-[425px] relative">
             <img
-              src="/stakingCalcRectangle.png"
+              src="/rectangle/calculator.svg"
               className="absolute inset-0 h-full w-full"
               alt=""
             />
@@ -87,7 +87,7 @@ function Calculator() {
           </div>
           <div className="w-[520px] h-[425px] relative">
             <img
-              src="/stakingCalcRectangle.png"
+              src="/rectangle/calculator.svg"
               className="absolute inset-0 h-full w-full"
               alt=""
             />

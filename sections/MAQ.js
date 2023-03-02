@@ -56,11 +56,6 @@ function MAQ() {
 
   return (
     <div className="min-h-[900px] relative mt-44">
-      <img
-        src="/maqGradient.png"
-        className="absolute left-1/2 -top-10 -translate-x-1/2 z-0 scale-[1.7] h-full w-[800px] object-cover"
-        alt=""
-      />
       <div className="absolute h-full w-full inset-0 px-44 z-10">
         <div className="flex flex-col items-center justify-center">
           <h1 className="w-fit text-4xl font-bold bg-gradient-to-r bg-clip-text  from-white via-white/30 to-white  text-transparent">

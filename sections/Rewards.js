@@ -17,7 +17,7 @@ function Rewards() {
         <div className="flex items-center mt-16 space-x-8">
           <div className="w-[350px] h-[250px] relative">
             <img
-              src="/rectangleTwo.png"
+              src="/rectangle/reward.svg"
               className="absolute inset-0 h-full w-full"
               alt=""
             />
@@ -35,7 +35,7 @@ function Rewards() {
           </div>
           <div className="w-[350px] h-[250px] relative">
             <img
-              src="/rectangleTwo.png"
+              src="/rectangle/reward.svg"
               className="absolute inset-0 h-full w-full"
               alt=""
             />
@@ -52,7 +52,7 @@ function Rewards() {
           </div>
           <div className="w-[350px] h-[250px] relative">
             <img
-              src="/rectangleTwo.png"
+              src="/rectangle/reward.svg"
               className="absolute inset-0 h-full w-full"
               alt=""
             />
