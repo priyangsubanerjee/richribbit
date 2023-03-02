@@ -7,18 +7,50 @@ function MAQ() {
   const Questions = [
     {
       question: "How long has Froggies Token existed?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis cum reprehenderit harum quaerat, beatae reiciendis sunt voluptatem deserunt, assumenda sapiente rem omnis repudiandae asperiores quia magnam quod vero! Veritatis, perspiciatis!",
+      answer: (
+        <p>
+          FROGGIES Token was initially launched back in November 2021 on the
+          Ethereum chain. Later a bridge was created to the BSC to allow for
+          cross chain transactions and cheaper gas fees.
+          <br />
+          In October 2022 Froggies Token decided to migrate the legacy ETH and
+          BSC contract into one new BSC contract. The main reasons for this were
+          lower gas fees, a stronger liquidity pool, and the greater
+          possibilities of on chain development.
+        </p>
+      ),
     },
     {
       question: "What is our contract address?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis cum reprehenderit harum quaerat, beatae reiciendis sunt voluptatem deserunt, assumenda sapiente rem omnis repudiandae asperiores quia magnam quod vero! Veritatis, perspiciatis!",
+      answer: (
+        <p>
+          0x7029994f28fd39ff934A96b25591D250A2183f67
+          <br />
+          Chain: Binance Smart Chain
+        </p>
+      ),
     },
     {
       question: "How secure is investing in Froggies Token?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis cum reprehenderit harum quaerat, beatae reiciendis sunt voluptatem deserunt, assumenda sapiente rem omnis repudiandae asperiores quia magnam quod vero! Veritatis, perspiciatis!",
+      answer: (
+        <div>
+          <p>
+            During the creation of our smart contract, we have taken investor
+            security in mind and we have provided several measures:
+          </p>
+          <ul className="list-disc ml-5 mt-2 space-y-2">
+            <li>
+              Tax cannot be set higher than 15% state._maxTaxFee = 1500;(1500
+              means 15%)
+            </li>
+            <li>Our Liquidity Pool is fully locked</li>
+            <li>
+              Our team members have been KYC by Nanuqe: https://t.co/ksVl2DC0XR
+            </li>
+            <li>Some team members are doxxed</li>
+          </ul>
+        </div>
+      ),
     },
   ];
 
