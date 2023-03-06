@@ -4,6 +4,11 @@ import React from "react";
 function Calculator() {
   return (
     <div className="min-h-[600px] relative mt-44">
+      <img
+        src="/gradients/glowRIng.svg"
+        className="absolute -top-44 left-0 h-96 brightness-50"
+        alt=""
+      />
       <div className="absolute h-full w-full inset-0 px-44 z-10">
         <div className="flex flex-col items-center justify-center">
           <h1 className="w-fit text-4xl font-bold bg-gradient-to-r bg-clip-text  from-white via-white/30 to-white  text-transparent">
@@ -44,7 +49,7 @@ function Calculator() {
               <div className="border border-white/70 rounded-md mt-8 overflow-hidden">
                 <input
                   type="text"
-                  className="w-full h-full bg-transparent py-2 px-4"
+                  className="w-full h-full bg-transparent py-2 px-4 text-gray-300"
                   placeholder="100"
                 />
               </div>

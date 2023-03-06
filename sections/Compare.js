@@ -4,6 +4,16 @@ import React from "react";
 function Compare() {
   return (
     <div className="min-h-[900px] relative mt-56">
+      <img
+        src="/compare.svg"
+        className="absolute right-0 -top-28 h-[500px]"
+        alt=""
+      />
+      <img
+        src="/gradients/compareGradient.svg"
+        className="absolute right-0 -top-[700px]"
+        alt=""
+      />
       <div className="absolute h-full w-full inset-0 px-44 z-10">
         <div className="flex flex-col items-center justify-center">
           <h1 className="w-fit text-4xl font-bold bg-gradient-to-r bg-clip-text  from-white via-white/30 to-white  text-transparent">
@@ -17,12 +27,10 @@ function Compare() {
           <div className="relative mt-4 text-center">
             <img
               src="/arrawAnnote.png"
-              className="absolute -right-0 h-16 top-16"
+              className="absolute -right-8 h-16 top-16"
               alt=""
             />
-            <h1 className="text-greenSecondary text-4xl font-semibold">
-              $ 100,000,000
-            </h1>
+            <h1 className="text-greenSecondary text-4xl font-bold">1152,74%</h1>
           </div>
           <p className="text-white mt-4">every year from</p>
           <div className="flex items-center mt-5">
