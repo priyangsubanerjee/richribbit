@@ -27,7 +27,7 @@ function Question({ activeState, setActivesState, index, question, answer }) {
         </span>
       </div>
       {activeState == index && (
-        <p className="text-grayPrimary leading-7 text-sm mt-3">{answer}</p>
+        <p className="text-grayPrimary leading-8 text-sm mt-3">{answer}</p>
       )}
     </div>
   );

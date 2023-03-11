@@ -27,7 +27,7 @@ function Community() {
                 Don&apos;t Settle for Less - Unleash the Power <br /> of $frgst
                 and Earn with Our Staking Platform
               </p>
-              <button className="bg-greenPrimary px-7 h-[40px] text-black rounded text-sm mt-10">
+              <button className="bg-greenPrimary hover:opacity-50 px-7 h-[40px] text-black rounded text-sm mt-10 transition-all duration-500">
                 Stake now
               </button>
             </div>

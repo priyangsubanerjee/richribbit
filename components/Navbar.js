@@ -16,7 +16,7 @@ function Navbar() {
             <img src="/logo.svg" className="h-10 lg:h-12" alt="" />
           </Link>
         </div>
-        <div className="hidden">
+        <div className="hidden lg:block">
           <ul className="flex items-center font-poppins text-sm space-x-9">
             <li className="text-white">Team</li>
             <li className="text-white">Rewards</li>
@@ -24,8 +24,8 @@ function Navbar() {
             <li className="text-white">Calculator</li>
           </ul>
         </div>
-        <div className="hidden">
-          <button className="bg-greenPrimary px-7 h-[40px] text-black rounded text-sm">
+        <div className="hidden lg:block">
+          <button className="bg-greenPrimary hover:opacity-50 px-7 h-[40px] text-black rounded text-sm transition-all duration-500">
             Stake now
           </button>
         </div>
