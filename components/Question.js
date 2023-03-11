@@ -7,7 +7,9 @@ function Question({ activeState, setActivesState, index, question, answer }) {
       className="border-b py-4 px-4 cursor-pointer"
     >
       <div className="flex justify-between items-center">
-        <h1 className="text-lg font-medium text-white">{question}</h1>
+        <h1 className="text-sm lg:text-lg font-medium text-white">
+          {question}
+        </h1>
         <span className="text-white">
           {activeState == index ? (
             <iconify-icon

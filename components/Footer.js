@@ -3,7 +3,12 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="min-h-[365px] relative mt-56 overflow-hidden w-full">
+    <div className="min-h-[365px] relative lg:mt-56 w-full">
+      <img
+        src="/gradients/community.svg"
+        className="h-[900px] w-[900px] -top-[500px] lg:-top-[400px] absolute lg:left-1/2 lg:-translate-x-1/2 z-0 hidden"
+        alt=""
+      />
       <img
         src="/footerRectangle.png"
         className="h-full w-full inset-0 absolute z-0"
@@ -11,24 +16,24 @@ function Footer() {
       />
       <img
         src="/moonText.png"
-        className="absolute top-10 -left-6 z-0 h-32"
+        className="absolute top-10 -left-6 z-0 h-32 hidden lg:block"
         alt=""
       />
       <img
         src="/moonText2.png"
-        className="absolute bottom-0 -right-6 z-0 h-32"
+        className="absolute bottom-0 -right-6 z-0 h-32 hidden lg:block"
         alt=""
       />
-      <div className="absolute h-full w-full inset-0 px-44 z-10">
+      <div className="absolute h-full w-full inset-0 lg:px-44 z-10">
         <div className="flex flex-col items-center justify-center p-10">
-          <img src="/logo.svg" className="h-10" alt="" />
-          <h1 className="w-fit mt-5 text-center text-3xl font-bold bg-gradient-to-r bg-clip-text  from-white via-white/30 to-white  text-transparent leading-[1.4]">
+          <img src="/logo.svg" className="h-9 lg:h-10" alt="" />
+          <h1 className="w-fit mt-5 text-center text-2xl lg:text-3xl font-bold bg-gradient-to-r bg-clip-text  from-white via-white/30 to-white  text-transparent leading-[1.5] lg:leading-[1.4]">
             TO THE MOON
             <br />
             AND NEVER BACK
           </h1>
         </div>
-        <ul className="flex space-x-14 items-center justify-center border-b pb-7">
+        <ul className="hidden lg:flex space-x-7 lg:space-x-14 items-center justify-center border-b pb-7">
           <a href="">
             <li className="text-white font-light">Team</li>
           </a>
@@ -48,9 +53,9 @@ function Footer() {
             <li className="text-white font-light">Staking</li>
           </a>
         </ul>
-        <div className="flex items-center justify-between mt-4">
-          <span className="text-graySecondary">© 2023 RichRibbit</span>
-          <span className="text-graySecondary">
+        <div className="flex items-center justify-between mt-4 px-4">
+          <span className="text-graySecondary text-xs">© 2023 RichRibbit</span>
+          <span className="text-graySecondary text-xs">
             Partnered with{" "}
             <a className="underline" target={"_blank"} href="https://dtory.in">
               Dtory Studios

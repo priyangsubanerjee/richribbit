@@ -55,14 +55,14 @@ function MAQ() {
   ];
 
   return (
-    <div className="min-h-[900px] relative mt-44">
-      <div className="absolute h-full w-full inset-0 px-44 z-10">
+    <div className="min-h-[500px] lg:min-h-[900px] relative mt-44">
+      <div className="absolute h-full w-full inset-0 lg:px-44 z-10">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="w-fit text-4xl font-bold bg-gradient-to-r bg-clip-text  from-white via-white/30 to-white  text-transparent">
+          <h1 className="w-fit text-2xl lg:text-4xl font-bold bg-gradient-to-r bg-clip-text  from-white via-white/30 to-white  text-transparent">
             MOST ASKED QUESTIONS
           </h1>
         </div>
-        <div className="px-32 mt-20 space-y-4">
+        <div className="px-6 lg:px-32 mt-7 lg:mt-20 space-y-4">
           {Questions.map((question, index) => {
             return (
               <Question
