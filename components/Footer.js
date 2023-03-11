@@ -16,7 +16,7 @@ function Footer() {
       />
       <img
         src="/moonText2.png"
-        className="absolute bottom-0 -right-6 z-0 h-32 hidden lg:block"
+        className="absolute bottom-0 -right-6 z-0 h-32 hidden lg:block object-contain"
         alt=""
       />
       <div className="lg:absolute h-full w-full inset-0 lg:px-44 z-10 pb-5">

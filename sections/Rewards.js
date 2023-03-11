@@ -15,7 +15,7 @@ function Rewards() {
           </p>
         </div>
         <div className="flex flex-col lg:flex-row items-center mt-6 lg:mt-16 lg:space-x-8 space-y-6 lg:space-y-0">
-          <div className="w-[90%] lg:w-[350px] h-[250px] relative rounded-xl overflow-hidden">
+          <div className="w-[90%] lg:w-[350px] h-[250px] relative rounded-xl overflow-hidden hover:scale-[1.05] hover:shadow-2xl hover:shadow-green-900/40 transition-all duration-500">
             <img
               src="/rectangle/reward.svg"
               className="absolute inset-0 h-full w-full object-cover"
@@ -33,7 +33,7 @@ function Rewards() {
               </p>
             </div>
           </div>
-          <div className="w-[90%] lg:w-[350px] h-[250px] relative rounded-xl overflow-hidden">
+          <div className="w-[90%] lg:w-[350px] h-[250px] relative rounded-xl overflow-hidden hover:scale-[1.05] hover:shadow-2xl hover:shadow-green-900/40 transition-all duration-500">
             <img
               src="/rectangle/reward.svg"
               className="absolute inset-0 h-full w-full object-cover"
@@ -50,7 +50,7 @@ function Rewards() {
               </p>
             </div>
           </div>
-          <div className="w-[90%] lg:w-[350px] h-[250px] relative rounded-xl overflow-hidden">
+          <div className="w-[90%] lg:w-[350px] h-[250px] relative rounded-xl overflow-hidden hover:scale-[1.05] hover:shadow-2xl hover:shadow-green-900/40 transition-all duration-500">
             <img
               src="/rectangle/reward.svg"
               className="absolute inset-0 h-full w-full object-cover"

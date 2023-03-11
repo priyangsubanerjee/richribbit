@@ -14,7 +14,7 @@ function Community() {
           <div className="w-full lg:w-[1148px] h-[290px] lg:h-[380px] bg-gradient-to-r from-green-700/10 via-green-600/20 to-green-700/10 rounded-xl overflow-hidden relative">
             <img
               src="/lines.png"
-              className="absolute inset-0 h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full object-cover animate-pulse"
               alt=""
             />
             <div className="absolute inset-0 z-10 h-full w-full flex flex-col items-center justify-center">
