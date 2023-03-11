@@ -5,11 +5,6 @@ function Footer() {
   return (
     <div className="h-fit lg:min-h-[365px] relative lg:mt-56 w-full">
       <img
-        src="/gradients/community.svg"
-        className="h-[900px] w-[900px] -top-[500px] lg:-top-[400px] absolute lg:left-1/2 lg:-translate-x-1/2 z-0 hidden lg:block"
-        alt=""
-      />
-      <img
         src="/footerRectangle.png"
         className="h-full w-full inset-0 absolute z-0 object-cover"
         alt=""
