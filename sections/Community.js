@@ -6,7 +6,7 @@ function Community() {
     <div className="min-h-[500px] relative -mt-32">
       <img
         src="/gradients/community.svg"
-        className="h-[900px] w-[900px] -top-[500px] lg:-top-[550px] absolute lg:left-1/2 lg:-translate-x-1/2 -z-10"
+        className="h-[900px] w-[900px] -top-[500px] lg:-top-[450px] absolute lg:left-1/2 lg:-translate-x-1/2 -z-10"
         alt=""
       />
       <div className="absolute h-full w-full inset-0 lg:px-44 z-10">

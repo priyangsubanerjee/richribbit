@@ -55,8 +55,8 @@ function MAQ() {
   ];
 
   return (
-    <div className="min-h-[500px] lg:min-h-[900px] relative mt-44">
-      <div className="absolute h-full w-full inset-0 lg:px-44 z-10">
+    <div className=" h-fit mt-44 py-20 mb-56">
+      <div className="h-full w-full inset-0 lg:px-44 z-10">
         <div className="flex flex-col items-center justify-center">
           <h1 className="w-fit text-2xl lg:text-4xl font-bold bg-gradient-to-r bg-clip-text  from-white via-white/30 to-white  text-transparent">
             MOST ASKED QUESTIONS
