@@ -6,7 +6,7 @@ function Community() {
     <div className="min-h-[500px] relative -mt-32">
       <img
         src="/gradients/community.svg"
-        className="h-[900px] w-[900px] -top-[500px] lg:-top-[450px] absolute lg:left-1/2 lg:-translate-x-1/2 -z-10"
+        className="h-[900px] w-[900px] -top-[400px] lg:-top-[450px] absolute lg:left-1/2 lg:-translate-x-1/2 -z-10"
         alt=""
       />
       <div className="absolute h-full w-full inset-0 lg:px-44 z-10">
@@ -14,7 +14,7 @@ function Community() {
           <div className="w-full lg:w-[1148px] h-[290px] lg:h-[380px] bg-gradient-to-r from-green-700/10 via-green-600/20 to-green-700/10 rounded-xl overflow-hidden relative">
             <img
               src="/lines.png"
-              className="absolute inset-0 h-full w-full"
+              className="absolute inset-0 h-full w-full object-cover"
               alt=""
             />
             <div className="absolute inset-0 z-10 h-full w-full flex flex-col items-center justify-center">

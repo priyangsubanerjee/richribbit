@@ -14,7 +14,7 @@ function Rewards() {
             Earn with Our Staking Platform
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row items-center mt-6 lg:mt-16 lg:space-x-8 space-y-6">
+        <div className="flex flex-col lg:flex-row items-center mt-6 lg:mt-16 lg:space-x-8 space-y-6 lg:space-y-0">
           <div className="w-[90%] lg:w-[350px] h-[250px] relative rounded-xl overflow-hidden">
             <img
               src="/rectangle/reward.svg"

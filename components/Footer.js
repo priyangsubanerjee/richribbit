@@ -3,15 +3,15 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="min-h-[365px] relative lg:mt-56 w-full">
+    <div className="h-fit lg:min-h-[365px] relative lg:mt-56 w-full">
       <img
         src="/gradients/community.svg"
-        className="h-[900px] w-[900px] -top-[500px] lg:-top-[400px] absolute lg:left-1/2 lg:-translate-x-1/2 z-0 hidden"
+        className="h-[900px] w-[900px] -top-[500px] lg:-top-[400px] absolute lg:left-1/2 lg:-translate-x-1/2 z-0 hidden lg:block"
         alt=""
       />
       <img
         src="/footerRectangle.png"
-        className="h-full w-full inset-0 absolute z-0"
+        className="h-full w-full inset-0 absolute z-0 object-cover"
         alt=""
       />
       <img
@@ -24,7 +24,7 @@ function Footer() {
         className="absolute bottom-0 -right-6 z-0 h-32 hidden lg:block"
         alt=""
       />
-      <div className="absolute h-full w-full inset-0 lg:px-44 z-10">
+      <div className="lg:absolute h-full w-full inset-0 lg:px-44 z-10 pb-5">
         <div className="flex flex-col items-center justify-center p-10">
           <img src="/logo.svg" className="h-9 lg:h-10" alt="" />
           <h1 className="w-fit mt-5 text-center text-2xl lg:text-3xl font-bold bg-gradient-to-r bg-clip-text  from-white via-white/30 to-white  text-transparent leading-[1.5] lg:leading-[1.4]">
@@ -33,7 +33,7 @@ function Footer() {
             AND NEVER BACK
           </h1>
         </div>
-        <ul className="hidden lg:flex space-x-7 lg:space-x-14 items-center justify-center border-b pb-7">
+        <ul className="block text-center lg:text-left lg:flex space-x-7 lg:space-x-14 items-center justify-center border-b pb-7">
           <a href="">
             <li className="text-white font-light">Team</li>
           </a>

@@ -19,7 +19,7 @@ function Calculator() {
             Earn with Our Staking Platform
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row items-center mt-7 lg:mt-16 space-y-7 lg:space-x-8">
+        <div className="flex flex-col lg:flex-row items-center mt-7 lg:mt-16 space-y-7 lg:space-x-8 lg:space-y-0">
           <div className="lg:w-[520px] w-[90%] h-[400px] lg:h-[425px] relative flex rounded-xl overflow-hidden">
             <img
               src="/rectangle/calculator.svg"
