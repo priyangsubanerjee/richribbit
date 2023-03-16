@@ -6,6 +6,7 @@ import Compare from "@/sections/Compare";
 import Introduction from "@/sections/Introduction";
 import MAQ from "@/sections/MAQ";
 import Rewards from "@/sections/Rewards";
+import Staking from "@/sections/Staking";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Rewards />
       <Calculator />
       <Compare />
+      <Staking />
       <MAQ />
       <Community />
       <Footer />
